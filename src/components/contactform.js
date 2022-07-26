@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 
 export default function ContactUs ()  {
-  const { form} = useRef();
+  const form = useRef();
  
 
   const sendEmail = (e) => {

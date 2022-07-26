@@ -41,7 +41,7 @@ export default function Navigation (){
     return(
     
     <div className="lg:flex  ">
-            <div className="lg:fixed bg-neutral-900 md:h-auto lg:h-screen lg:w-1/2 h-auto m-0 font-serif pt-7 md:pt-7 pl-7 pb-7 ">
+            <div className="lg:fixed bg-neutral-900 md:h-auto lg:h-screen lg:w-1/2 h-auto m-0 font-serif pt-7 md:pt-7  lg:pl-7 pb-7 ">
                 <Navbar />
                 <h1 className="text-orange-500 text-xl md:text-3xl lg:text-4xl font-normal tracking-tighter pl-7 pt-7  ">
                 Hello there.</h1>
@@ -69,7 +69,7 @@ export default function Navigation (){
              <div className="h-auto bg-orange-500 relative">
                  <Skills />
              </div>
-             <div className="h-auto bg-slate-200 relative">
+             <div className="h-auto bg-slate-100 relative">
                  <Contact />
              </div>
              

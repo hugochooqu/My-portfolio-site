@@ -21,7 +21,7 @@ export default function ContactUs ()  {
   };
 
   return (
-    <form className="pt-10" ref={form} onSubmit={sendEmail}>
+    <form className="pt-10" ref={form} onSubmit={sendEmail} autocomplete="off" onsubmit="return process()">
       
    
       <input className="h-10 w-60 md:w-48 rounded-2xl text-sm text-neutral-100 border-neutral-900 border-0 bg-neutral-900 pl-5" placeholder="Your Name" type="text" name="user_name"

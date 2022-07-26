@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+.simpson{
+  margin-left: 49.45%;
+}
+  .typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+  .typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+  }
+#main:hover{
+  background-color: #171717;
+  color: #f97316;
+  box-shadow: #f97316;
+}
+  #main:hover + #trykk {
+    background-color: #f97316;
+    color: #171717;
+    box-shadow: #f97316;
 }

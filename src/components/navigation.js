@@ -63,7 +63,7 @@ export default function Navigation (){
                  <img src={pic} alt="simpson" className="h-screen w-screen"></img>
              </div>
              <div className="lg:h-screen relative"></div>
-             <div className="h-auto bg-neutral-100  relative ">
+             <div className="h-auto bg-neutral-100 relative ">
                  <About />
              </div>
              <div className="h-auto bg-orange-500 relative">
